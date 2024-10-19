@@ -1,26 +1,18 @@
-import java.util.Scanner;
-
 public class MorseTranslator {
     public static void main(String[] args) {
-        System.out.println("Enter your message (type underscore to exit): ");
-        for (int i=0;i==0;) 
-            loop();
-    }
-    public static void loop() {
-        Scanner sc = new Scanner(System.in);
-        //String test = "THIS is a test for my translator";
-        String test = sc.nextLine();
-        
-        test = test.toLowerCase();
-        if (test.equals("_"))
-            System.exit(1);
-        //System.out.println(test);
-        for (int i = 0; i < test.length(); i++) {
-            //System.out.print(test.substring(i,i+1));
-            System.out.print(getNextAlpha(test.substring(i,i+1)) + " ");
+        String text = "";
+        try {
+            text = args[0].toLowerCase();
+        } catch(Exception e) {
+            System.out.println("Exception encountered");
+            System.exit(0);
         }
-        System.out.println("\n");
-    }
+        //System.out.println(text);
+        for (int i = 0; i < text.length(); i++) {
+            System.out.print(getNextAlpha(text.substring(i,i+1)) + " ");
+        }
+        System.out.println("");
+    }   
     public static String getNextAlpha(String alpha) {
         switch(alpha) {
             case "a":

@@ -1,0 +1,5 @@
+#!/bin/bash
+cd /path/to/program
+if [ "$#" -eq 1 ]; then
+   java MorseTranslator "$1"
+fi
