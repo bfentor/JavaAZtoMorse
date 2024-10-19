@@ -6,4 +6,4 @@ Translates whatever you input to morse code
 - Launch the program with the script and the text you want to translate as an argument surrounded by quotations.
 
 ## Example
-<img src="example.jpg" width="300" />
+<img src="image.png" width="300" />
