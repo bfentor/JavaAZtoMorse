@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MorseTranslator
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ loop()
+comment3.params=alpha
+comment3.target=java.lang.String\ getNextAlpha(java.lang.String)
+numComments=4
