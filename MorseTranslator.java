@@ -36,7 +36,7 @@ public class MorseTranslator {
     }
     // Previous implementation left here for educational purposes:
     /* 
-    public static String getNextAlphaDEP(String alpha) {
+    public static String getNextAlpha(String alpha) {
         switch(alpha) {
             case "a":
                 return "•-";
